@@ -1,8 +1,8 @@
-def add(x, y):
-    return x + y
+def add(a, b):
+    return a + b
 
-def multiply(x, y):
-    return x * y
 
-def subtract(x, y):
-    return x - y
+def divide(a, b):
+    if b == 0:
+        raise ValueError("Деление на ноль невозможно")
+    return a / b
